@@ -223,8 +223,6 @@ int main(int argc, char **argv)
 
     if (verbose)
         log_level(LOG_DEBUG);
-    else
-        log_level(LOG_ERR);
 
     log_info("rtty version %s\n", RTTY_VERSION_STRING);
 
